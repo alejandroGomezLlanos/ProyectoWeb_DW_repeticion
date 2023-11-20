@@ -1,19 +1,18 @@
-import { useState } from "react";
+// Dentro de BotonLogin.js (o donde tengas definido el componente BotonLogin)
+import React from "react";
+import { Link } from "react-router-dom";
 
-import "../styles.css";
-
-export const BotonLogin = () => {
-  //const [info, setalgo] = useState(algo);
-
-  //const funcion = () => {};
-
+const BotonLogin = ({ botonLogin, onClick }) => {
   return (
-    <>
-      <button type="button" class="btn btn-secondary">
-        Crear Cuenta
-      </button>
-    </>
+    <Link to="/login">
+    <button type="button" className={`btn ${botonLogin ? "btn-secondary" : "btn-primary"}`} onClick={onClick}>
+      {botonLogin ? "Aceptar" : "Texto2"}
+    </button>
+    </Link>
   );
 };
 
 export default BotonLogin;
+
+
+//<button type="button" class="btn btn-secondary">
