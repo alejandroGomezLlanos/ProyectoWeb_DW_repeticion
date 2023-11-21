@@ -14,7 +14,7 @@ export default function About () {
           <div class="col-12 col-xl-11">
             <h2 class="h1 mb-3">Who Are We?</h2>
             <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
-            <p class="mb-5">Nullam gravida orci ac luctus molestie. Fusce finibus congue erat, non aliquam magna tincidunt at. Aenean lacinia arcu ex, sed pharetra nibh porta a. Curabitur vel consequat nibh, ac interdum nisl. Nunc pulvinar nec massa vitae sollicitudin.</p>
+            <p class="mb-5">When it comes right down to it, Tamiya's main goal is to offer the world the most rewarding modeling experience possible. Grasping the various parts, assembling, and finally painting a finely crafted model is truly a special and rare experience in today's modern world. Tamiya feels that this hands-on experience is invaluable. So whether it's our careful attention to quality, or our commitment to ease-of-assembly, we are always striving to create truly fulfilling ways to spend one's time.</p>
             <div class="row gy-4 gy-md-0 gx-xxl-5X">
               <div class="col-12 col-md-6">
                 <div class="d-flex">
