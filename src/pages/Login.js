@@ -12,7 +12,7 @@ export default function Login() {
   const handleLogin = async () => {
     try {
       // Realizar la petición GET para obtener usuarios
-      const response = await axios.get("http://localhost:3500/users");
+      const response = await axios.get("https://deploy-backend-final-web-production.up.railway.app/users");
       const users = response.data;
 
       // Verificar si el usuario con el correo proporcionado existe

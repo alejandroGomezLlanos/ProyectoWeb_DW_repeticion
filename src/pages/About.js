@@ -1,8 +1,10 @@
 import react from "react"
+import Barra from "../componentes/Barra";
 
 export default function About () {
 	return(
     <>
+    <Barra />
 	<section class="py-3 py-md-5 py-xl-8">
   <div class="container">
     <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
@@ -24,8 +26,8 @@ export default function About () {
                     </svg>
                   </div>
                   <div>
-                    <h4 class="mb-3">Versatile Brand</h4>
-                    <p class="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                    <h4 class="mb-3">Historical accurate</h4>
+                    <p class="text-secondary mb-0">The models are based on real plans, preserving 100% historical veracity.</p>
                   </div>
                 </div>
               </div>
@@ -37,8 +39,8 @@ export default function About () {
                     </svg>
                   </div>
                   <div>
-                    <h4 class="mb-3">Digital Agency</h4>
-                    <p class="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                    <h4 class="mb-3">Quality</h4>
+                    <p class="text-secondary mb-0">We create models of the best quality in the world.</p>
                   </div>
                 </div>
               </div>

@@ -12,8 +12,8 @@ export default function Card() {
             Tamiya presents the unique Japanese Navy Aircraft Carrying Cruiser Mogami, which was able 
             to carry eleven hydroplanes in the second half of the Pacific war.
           </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
+          <a href="#/Comprar" class="btn btn-primary">
+            Comprar
           </a>
         </div>
       </div>

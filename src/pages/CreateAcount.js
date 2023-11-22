@@ -42,7 +42,7 @@ export default function CreateAccount() {
 
       console.log("Datos a enviar:", userData);
 
-      const response = await axios.post("http://localhost:3500/users", userData);
+      const response = await axios.post("https://deploy-backend-final-web-production.up.railway.app/users", userData);
 
       console.log("Respuesta del servidor:", response.data);
     } catch (error) {
